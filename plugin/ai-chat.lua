@@ -1,2 +1,4 @@
 local map = vim.keymap
-map.set("n", "asdf", ":lua require('ai-chat').print_on_key()<CR>")
+map.set("n", "ais", ":lua require('ai-chat').start_new_chat()<CR>")
+
+map.set("n", "aip", ":lua require('ai-chat').prompt()<CR>")
